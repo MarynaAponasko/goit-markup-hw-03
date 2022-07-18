@@ -32,16 +32,16 @@
 <main class="main">
     <!-- hero -->
     <section class="hero">
-        <div class="container hero-container">
-    <div class="hero-title"><h1 class="hero-title-text">Ефективні рішення для вашого бізнесу</h1></div>
+        <div class="container">
+    <h1 class="hero-title-text">Ефективні рішення для вашого бізнесу</h1>
     <button type="button" class="hero-button">Замовити послугу
 </button>
         </div>
     </section>
-    <section>
-        <!-- Benefits -->
-        <div class="container benefits-container">
-        <h2 hidden>Наші переваги</h2>
+    <!-- Benefits -->
+    <section class="section">
+        <div class="container">
+        <h2 class="visually-hidden">Наші переваги</h2>
         <ul class="benefits list"> 
             <li class="list-item benefits-item">
                 <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -63,10 +63,10 @@
         </div>
     </section>
     <!-- duties -->
-    <section class="duties">
-        <div class="container duties-container">
+    <section class="duties section">
+        <div class="container">
             <h2 class="duties-title">Чим ми займаємося</h2>
-            <ul class="list duties-list">.
+            <ul class="list duties-list">
                 <li class="list-item duties-item"> <img src="./images/box1.jpg" alt="створення загальної структури" width="370" height="294"></li>
                 <li class="list-item duties-item"><img src="./images/box2.jpg" alt="геометричне розміщення контенту" width="370" height="294"></li>
                 <li class="list-item duties-item"><img src="./images/box3.jpg" alt="підбір кольорової гамми проекту" width="370" height="294"></li>
@@ -74,29 +74,40 @@
         </div>
     </section>
     <!-- team -->
-    <section class="team">
-        <div class="container team-container">
+    <section class="team section">
+        <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="list list-workers" >
                 <li class="list-item workers-item">
                     <img src="./images/photo1.jpg" alt="Игорь Демьяненко" width="270" height="260" class="workers-photo">
-                    <h3 class="workers-name">Ігор Дем'яненко</h3>
-                    <p class="position" lang="en">Product Designer</p>
+                    <div class="team-info">
+                        <h3 class="workers-name">Ігор Дем'яненко</h3>
+                        <p class="position" lang="en">Product Designer</p>
+                    </div>
+                    
                 </li>
                 <li class="list-item workers-item" >
                     <img src="./images/photo2.jpg" alt="Ольга Репина" width="270" height="260" class="workers-photo">
-                    <h3 class="workers-name">Ольга Рєпіна</h3>
-                    <p class="position">Frontend Developer</p>
+                    <div class="team-info">
+                        <h3 class="workers-name">Ольга Рєпіна</h3>
+                        <p class="position">Frontend Developer</p>
+                    </div>
+                    
                 </li>
                 <li class="list-item workers-item">
                     <img src="./images/photo3.jpg" alt="Микола Тарасов" width="270" height="260" class="workers-photo">
-                    <h3 class="workers-name">Николай Тарасов</h3>
-                    <p class="position" lang="en">Marketing</p>
+                    <div class="team-info">
+                        <h3 class="workers-name">Николай Тарасов</h3>
+                        <p class="position" lang="en">Marketing</p>
+                    </div>
+                    
                 </li>
                 <li class="list-item workers-item">
                     <img src="./images/photo4.jpg" alt="Михайло Єрмаков" width="270" height="260" class="workers-photo">
-                    <h3 class="workers-name">Михаил Ермаков</h3>
-                    <p class="position" lang="en">UI Designer</p>
+                    <div class="team-info">
+                        <h3 class="workers-name">Михаил Ермаков</h3>
+                        <p class="position" lang="en">UI Designer</p>
+                    </div>
                 </li>
             </ul>
         
